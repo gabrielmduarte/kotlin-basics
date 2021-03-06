@@ -1,6 +1,13 @@
 package orientedObject
 
+import orientedObject.domain.Account
+import orientedObject.domain.Person
+
 fun main() {
+    testAccountsAndPersons()
+}
+
+fun testAccountsAndPersons() {
     val abel = Person("Abel", "Ferreira", "456678745")
     val accountAbel = Account(abel, 1122)
     accountAbel.balance = 100.0
@@ -14,4 +21,10 @@ fun main() {
     accountGuina.balance = 100.0
 
     accountAbel.deposit(accountGuina, 50.1)
+}
+
+fun testEmployeesAndManagers() {
+    val odete = Person("Odete", "Meirelles", "456678745")
+    val guina = Person("Agnaldo", "Duarte", "1762837")
+
 }
