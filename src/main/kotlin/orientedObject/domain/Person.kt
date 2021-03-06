@@ -1,4 +1,4 @@
-package orientedObject
+package orientedObject.domain
 
 data class Person(
     var name: String,

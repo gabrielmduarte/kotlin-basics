@@ -1,4 +1,4 @@
-package orientedObject
+package orientedObject.domain
 
 class Account(
     val person: Person,
